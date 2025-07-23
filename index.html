@@ -1,0 +1,87 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillSwap | Learn. Teach. Grow Together.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">SkillSwap</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2>Trade Skills, Not Money</h2>
+      <p>Learn from each other. Share what you know. Grow together.</p>
+      <a href="#about" class="cta-btn">Start Swapping</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>Our Mission</h2>
+      <p>SkillSwap is a peer-to-peer learning community where people teach and learn from each other by trading skills instead of money. Everyone has something to offer!</p>
+    </section>
+
+    <section id="how" class="section alt">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <img src="images/emoji-profile.png" alt="Profile" />
+          <h3>1. Create a Profile</h3>
+          <p>List your skills and what you want to learn.</p>
+        </div>
+        <div class="step">
+          <img src="images/emoji-match.png" alt="Match" />
+          <h3>2. Find a Match</h3>
+          <p>Discover people looking to swap skills with you.</p>
+        </div>
+        <div class="step">
+          <img src="images/emoji-learn.png" alt="Learn" />
+          <h3>3. Swap & Learn</h3>
+          <p>Teach each other. Build community. No cost.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Popular Skill Swaps</h2>
+      <div class="skill-grid">
+        <div class="skill-card"><img src="images/emoji-guitar.png" alt="Guitar" /> Guitar ↔ Drawing</div>
+        <div class="skill-card"><img src="images/emoji-code.png" alt="Web Dev" /> Web Dev ↔ Photography</div>
+        <div class="skill-card"><img src="images/emoji-yoga.png" alt="Yoga" /> Yoga ↔ Cooking</div>
+        <div class="skill-card"><img src="images/emoji-speak.png" alt="Speaking" /> Writing ↔ Public Speaking</div>
+      </div>
+    </section>
+
+    <section id="join" class="section cta">
+      <h2>Join the SkillSwap Community</h2>
+      <p>Be part of a global skill-sharing revolution. It's free and full of possibilities.</p>
+      <a href="#" class="cta-btn">Join Now</a>
+    </section>
+
+    <section id="login" class="section login-section">
+      <h2>Login to SkillSwap</h2>
+      <form id="loginForm" class="login-form">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+        <p id="loginMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SkillSwap | Built with passion for learning 🌍</p>
+  </footer>
+</body>
+</html>
